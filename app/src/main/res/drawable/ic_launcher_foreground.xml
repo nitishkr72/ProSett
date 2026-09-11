@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Shield Background Glow -->
+        <path
+            android:fillColor="#1538BDF8"
+            android:pathData="M54,23 L79,33 C79,59 66,74 54,85 C42,74 29,59 29,33 Z" />
+
+        <!-- Shield Outer Border -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M54,24 L78,34 C78,58 65,72 54,83 C43,72 30,58 30,34 Z" />
+
+        <!-- Top WiFi Signal Arc -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:pathData="M42,42 C49,36 59,36 66,42" />
+
+        <!-- Middle WiFi Signal Arc -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="2.6"
+            android:strokeLineCap="round"
+            android:pathData="M46,47 C50.5,43.5 57.5,43.5 62,47" />
+
+        <!-- Central Power / Firewall Switch Node -->
+        <path
+            android:fillColor="#4ADE80"
+            android:pathData="M54,54m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0" />
+
+        <!-- Mobile Cellular Bars at the bottom of shield -->
+        <!-- Bar 1 -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M43,68 L46,68 L46,63 L43,63 Z" />
+        <!-- Bar 2 -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M49,68 L52,68 L52,60 L49,60 Z" />
+        <!-- Bar 3 -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M55,68 L58,68 L58,57 L55,57 Z" />
+        <!-- Bar 4 -->
+        <path
+            android:fillColor="#4ADE80"
+            android:pathData="M61,68 L64,68 L64,54 L61,54 Z" />
+    </group>
+</vector>

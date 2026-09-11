@@ -1,0 +1,6 @@
+{
+  "name": "App Network & Activity Controller",
+  "description": "Manage installed apps, toggle background activity, and control network access for Wi-Fi and mobile data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
