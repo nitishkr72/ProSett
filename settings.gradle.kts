@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "App Controller"
+rootProject.name = "ProSett"
 
 include(":app")
